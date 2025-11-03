@@ -7,13 +7,25 @@ const services = [
     icon: Ruler,
     title: "Masonry & Concrete Works",
     description: "Durable foundations, walls, and stonework.",
-    features: ["Brick & Stone Walls", "Concrete Foundations", "Patios & Walkways", "Retaining Walls"],
+    features: [
+      "Brick & Stone Walls",
+      "Concrete Foundations",
+      "Patios & Walkways",
+      "Retaining Walls",
+      "Exterior Painting",
+    ],
   },
   {
     icon: Hammer,
     title: "Carpentry & Joinery",
     description: "Custom woodwork and timber installations.",
-    features: ["Doors & Windows", "Custom Cabinetry", "Lowered Ceilings", "Timber Roofing"],
+    features: [
+      "Doors & Windows",
+      "Custom Cabinetry",
+      "Lowered Ceilings",
+      "Timber Roofing",
+      "Interior Painting & Finishing",
+    ],
   },
   {
     icon: Zap,
