@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Mail } from "lucide-react"
+import { ArrowRight, Mail } from 'lucide-react'
 import Link from "next/link"
 
 export function HeroSection() {
@@ -77,8 +77,8 @@ export function HeroSection() {
           <div className="relative">
             <div className="aspect-[4/3] overflow-hidden rounded-2xl bg-white/10 shadow-2xl backdrop-blur-sm">
               <img
-                src="/images/design-mode/image.png"
-                alt="Savannah Builders craftsmen working on custom carpentry project"
+                src="/savanna-builders-workers.jpg"
+                alt="Savanna Builders craftsmen installing custom wooden door frame with decorative lattice work"
                 className="h-full w-full object-cover"
               />
             </div>
