@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Phone } from "lucide-react"
+import { ArrowRight, MessageCircle } from "lucide-react"
+
+const WHATSAPP_URL =
+  "https://wa.me/254118591590?text=Hi%2C%20I'd%20like%20to%20inquire%20about%20your%20construction%20services"
 
 export function CtaSection() {
   return (
@@ -16,21 +19,25 @@ export function CtaSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button
-              size="lg"
-              className="bg-[#EFB019] text-[#362610] hover:bg-[#d99a15] font-semibold text-base group min-w-[200px]"
-            >
-              {"Request Free Quote"}
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-2 border-white text-white hover:bg-white hover:text-[#362610] font-semibold text-base min-w-[200px] bg-transparent"
-            >
-              <Phone className="mr-2 h-5 w-5" />
-              {"(555) 123-4567"}
-            </Button>
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                className="bg-[#EFB019] text-[#362610] hover:bg-[#d99a15] font-semibold text-base group min-w-[200px]"
+              >
+                {"Request Free Quote"}
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Button>
+            </a>
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-2 border-white text-white hover:bg-white hover:text-[#362610] font-semibold text-base min-w-[200px] bg-transparent"
+              >
+                <MessageCircle className="mr-2 h-5 w-5" />
+                {"WhatsApp Us"}
+              </Button>
+            </a>
           </div>
 
           {/* Trust Indicators */}

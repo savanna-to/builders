@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Mail } from 'lucide-react'
+import { ArrowRight, MessageCircle } from 'lucide-react'
 import Link from "next/link"
 
 export function HeroSection() {
@@ -44,16 +44,20 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <Link href="#contact">
+              <a
+                href="https://wa.me/254118591590?text=Hi%2C%20I'd%20like%20to%20inquire%20about%20your%20construction%20services"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-2 border-white text-white hover:bg-white hover:text-[#362610] font-semibold text-base bg-transparent w-full sm:w-auto"
                 >
-                  <Mail className="mr-2 h-5 w-5" />
-                  {"Get In Touch"}
+                  <MessageCircle className="mr-2 h-5 w-5" />
+                  {"WhatsApp Us"}
                 </Button>
-              </Link>
+              </a>
             </div>
 
             {/* Stats */}
