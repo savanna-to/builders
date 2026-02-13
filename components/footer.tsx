@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Mail } from "lucide-react"
+import { Mail, MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
@@ -27,6 +27,17 @@ export function Footer() {
           <div>
             <h3 className="font-heading text-lg font-bold mb-4">{"Contact Us"}</h3>
             <ul className="space-y-3">
+              <li className="flex items-center gap-3">
+                <MessageCircle className="h-5 w-5 text-[#25D366] flex-shrink-0" />
+                <a
+                  href="https://wa.me/254118591590?text=Hi%2C%20I'd%20like%20to%20inquire%20about%20your%20construction%20services"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-[#25D366] transition-colors text-sm"
+                >
+                  {"WhatsApp Us"}
+                </a>
+              </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-[#EFB019] flex-shrink-0" />
                 <a
