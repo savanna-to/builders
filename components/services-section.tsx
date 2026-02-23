@@ -1,6 +1,6 @@
 import type React from "react"
 import { Card, CardContent } from "@/components/ui/card"
-import { Ruler, Hammer, Zap, Droplet } from "lucide-react"
+import { Ruler, Hammer, Zap, Droplet, ArrowRight } from "lucide-react"
 
 const services = [
   {
@@ -26,6 +26,7 @@ const services = [
       "Timber Roofing",
       "Interior Painting & Finishing",
     ],
+    cta: { label: "See our timber products", href: "#products" },
   },
   {
     icon: Zap,
@@ -78,6 +79,15 @@ export function ServicesSection() {
                       </li>
                     ))}
                   </ul>
+                  {"cta" in service && service.cta && (
+                    <a
+                      href={service.cta.href}
+                      className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-[#A07533] hover:text-[#EFB019] transition-colors"
+                    >
+                      {service.cta.label}
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </a>
+                  )}
                 </CardContent>
               </Card>
             )
