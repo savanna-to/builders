@@ -12,28 +12,20 @@ const products = [
     features: ["Any shape or size", "Hardwood frames", "Clear or frosted glass"],
   },
   {
+    name: "Custom Timber Doors",
+    description:
+      "Solid timber doors handcrafted with arched panels, clean joinery, and quality hardware. Interior and exterior options.",
+    image: "/images/products/timber-doors.jpg",
+    startingPrice: "KSh 55,000",
+    features: ["Solid hardwood build", "Custom panel designs", "Hardware included"],
+  },
+  {
     name: "Sliding Doors",
     description:
-      "Smooth-gliding wooden sliding doors with glass panels. Perfect for patios, balconies, and room dividers.",
+      "Timber-framed sliding doors with glass panels and decorative lattice headers. Perfect for patios and balconies.",
     image: "/images/products/sliding-doors.jpg",
     startingPrice: "KSh 65,000",
     features: ["Smooth track system", "Glass panel options", "Interior & exterior"],
-  },
-  {
-    name: "Kitchen Cabinets",
-    description:
-      "Solid wood kitchen cabinets built to your exact specifications. Durable finishes that last for years.",
-    image: "/images/products/kitchen-cabinets.jpg",
-    startingPrice: "KSh 120,000",
-    features: ["Custom sizing", "Quality hardware", "Multiple wood finishes"],
-  },
-  {
-    name: "Timber Gates",
-    description:
-      "Handcrafted entrance gates in solid timber with decorative panels and heavy-duty hardware for security and style.",
-    image: "/images/products/timber-gates.jpg",
-    startingPrice: "KSh 85,000",
-    features: ["Heavy-duty build", "Decorative panels", "Metal hardware included"],
   },
 ]
 
@@ -57,7 +49,7 @@ export function ProductsSection() {
         </div>
 
         {/* Products Grid */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {products.map((product, index) => (
             <div
               key={index}
