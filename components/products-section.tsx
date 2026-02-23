@@ -16,7 +16,7 @@ const products = [
     description:
       "Solid timber doors handcrafted with arched panels, clean joinery, and quality hardware. Interior and exterior options.",
     image: "/images/products/timber-doors.jpg",
-    startingPrice: "KSh 55,000",
+    startingPrice: "KSh 19,000",
     features: ["Solid hardwood build", "Custom panel designs", "Hardware included"],
   },
   {
@@ -24,7 +24,7 @@ const products = [
     description:
       "Timber-framed sliding doors with glass panels and decorative lattice headers. Perfect for patios and balconies.",
     image: "/images/products/sliding-doors.jpg",
-    startingPrice: "KSh 65,000",
+    startingPrice: "KSh 69,000",
     features: ["Smooth track system", "Glass panel options", "Interior & exterior"],
   },
 ]
