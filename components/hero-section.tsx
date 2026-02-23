@@ -48,7 +48,7 @@ export function HeroSection() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-2 border-[#362610] text-[#362610] hover:bg-[#362610] hover:text-white font-semibold text-base group w-full sm:w-auto"
+                  className="border-2 border-[#362610] text-[#362610] hover:bg-transparent hover:text-[#362610] font-semibold text-base group w-full sm:w-auto bg-transparent transition-colors"
                 >
                   {"View Products"}
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
