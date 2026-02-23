@@ -30,7 +30,7 @@ export function HeroSection() {
 
             <p className="text-lg text-white/90 leading-relaxed text-pretty">
               {
-                "Professional masonry, carpentry, electrical, and plumbing services for your home or business. Quality work you can trust."
+                "Professional building services and handcrafted timber products for your home or business. Quality work you can trust."
               }
             </p>
 
@@ -41,6 +41,16 @@ export function HeroSection() {
                   className="bg-[#362610] hover:bg-[#2a1e0c] text-white font-semibold text-base group w-full sm:w-auto"
                 >
                   {"Explore Services"}
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </Button>
+              </Link>
+              <Link href="#products">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-2 border-[#362610] text-[#362610] hover:bg-[#362610] hover:text-white font-semibold text-base group w-full sm:w-auto"
+                >
+                  {"View Products"}
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
