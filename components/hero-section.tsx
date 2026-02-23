@@ -30,7 +30,7 @@ export function HeroSection() {
 
             <p className="text-lg text-white/90 leading-relaxed text-pretty">
               {
-                "Professional building services and handcrafted timber products for your home or business. Quality work you can trust."
+                "Professional building services and handcrafted products for your home or business. Quality work you can trust."
               }
             </p>
 
