@@ -55,7 +55,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-white/60 text-sm">
-              {"© 2025 Savanna Builders. All rights reserved."}
+              {`© ${new Date().getFullYear()} Savanna Builders. All rights reserved.`}
             </p>
           </div>
         </div>
