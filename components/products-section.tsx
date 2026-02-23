@@ -9,7 +9,7 @@ const products = [
       "Made-to-measure timber windows in any style -- arched, half-circle, casement, or sash. Clear or frosted glass options.",
     image: "/images/products/timber-windows.jpg",
     startingPrice: "KSh 49,000",
-    features: ["Any shape or size", "Hardwood frames", "Clear or frosted glass"],
+    features: ["Any shape or size", "Hardwood frames", "Clear or tinted glass"],
   },
   {
     name: "Custom Timber Doors",
@@ -17,7 +17,7 @@ const products = [
       "Solid timber doors handcrafted with arched panels, clean joinery, and quality hardware. Interior and exterior options.",
     image: "/images/products/timber-doors.jpg",
     startingPrice: "KSh 19,000",
-    features: ["Solid hardwood build", "Custom panel designs", "Hardware included"],
+    features: ["Solid cypress or mahogany build", "Custom panel designs", "Hardware available"],
   },
   {
     name: "Sliding Doors",
