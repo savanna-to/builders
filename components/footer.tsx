@@ -57,10 +57,6 @@ export function Footer() {
             <p className="text-white/60 text-sm">
               {"© 2025 Savanna Builders. All rights reserved."}
             </p>
-            <span className="hidden md:inline text-white/30">{"/"}</span>
-            <p className="text-white/40 text-sm">
-              {"A Savanna Group company"}
-            </p>
           </div>
         </div>
       </div>
