@@ -54,7 +54,13 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-            <p className="text-white/60 text-sm">{"© 2025 Savanna Builders. All rights reserved."}</p>
+            <p className="text-white/60 text-sm">
+              {"© 2025 Savanna Builders. All rights reserved."}
+            </p>
+            <span className="hidden md:inline text-white/30">{"/"}</span>
+            <p className="text-white/40 text-sm">
+              {"A Savanna Group company"}
+            </p>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, MessageCircle } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import Link from "next/link"
 
 export function HeroSection() {
@@ -30,7 +30,7 @@ export function HeroSection() {
 
             <p className="text-lg text-white/90 leading-relaxed text-pretty">
               {
-                "Professional masonry, carpentry, electrical, and plumbing services for your home or business. Quality work you can trust."
+                "Professional building services and handcrafted products for your home or business. Quality work you can trust."
               }
             </p>
 
@@ -44,20 +44,16 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-              <a
-                href="https://wa.me/254118591590?text=Hi%2C%20I'd%20like%20to%20inquire%20about%20your%20construction%20services"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href="#products">
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-2 border-white text-white hover:bg-white hover:text-[#362610] font-semibold text-base bg-transparent w-full sm:w-auto"
+                  className="border-2 border-[#362610] text-[#362610] hover:bg-[#362610] hover:text-white font-semibold text-base group w-full sm:w-auto"
                 >
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  {"WhatsApp Us"}
+                  {"View Products"}
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
-              </a>
+              </Link>
             </div>
 
             {/* Stats */}
